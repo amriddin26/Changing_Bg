@@ -1,0 +1,16 @@
+.btn-violet {
+    background-color: #563d7c;
+    color: #fff;
+}
+
+.navbar {
+    background-color: rgb(24, 18, 18);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar .navbar-brand {
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Font Awesome v6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap v5 -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Title -->
+    <title>Changing Bg</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Navbar Logo -->
+        <a class="navbar-brand" href="#">LOGO</a>
+        <!-- Burger Menu -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+        <!-- Navbar Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home
+							<span class="sr-only">(current)</span>
+						</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="icon">
+                <i class="fa-solid fa-sun text-white" style="font-size: 20px" id="sun"></i>
+                <i class="fa-regular fa-moon text-white mx-4 active" style="font-size: 20px" id="moon"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Color Buttons -->
+    <div class="container">
+        <h1>Change Background</h1>
+        <button type="button " class="btn btn-primary" data-color="#007bff ">Primary</button>
+        <button type="button " class="btn btn-success" data-color="#28a745 ">Success</button>
+        <button type="button " class="btn btn-danger" data-color="#dc3545 ">Danger</button>
+        <button type="button " class="btn btn-violet" data-color="#563d7c ">Violet</button>
+        <button type="button " class="btn btn-warning" data-color="#ffc107 ">Warning</button>
+        <button type="button " class="btn btn-info" data-color="#17a2b8 ">Info</button>
+        <button type="button " class="btn btn-dark" data-color="#343a40 ">Dark</button>
+        <button type="button " class="btn btn-primary" data-color="#3300fa ">Tavvakal</button>
+        <div class="card" DA>
+            <img src="https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_640.jpg" class="img" alt="" />
+        </div>
+    </div>
+    <script src="js/script.js "></script>
+</body>
+
+</html>
